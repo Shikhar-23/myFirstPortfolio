@@ -1,0 +1,188 @@
+a{
+  color: white;
+  text-decoration: none;
+}
+body{
+  /*  background-color: #f9f7f7;*/    
+    background-color: #cfdac8; 
+    text-align: center;
+    margin: 0;
+    }
+
+
+
+.top{
+  /*  background-color: #f9f7f7; */
+    
+    background-color: inherit;    
+    position: relative;
+    left: 20px;
+    height : 40%;  
+}
+.introText{
+    margin: 0 auto 0 auto;  
+             
+}
+h1{  
+  font-family: 'Sacramento', cursive;
+  font-size: 550%;
+  color:#007965;
+  line-height: 1;
+}
+
+h2{
+  font-family: 'Montserrat', serif;
+  font-style: italic;
+  font-weight: 500 ;
+  font-size:  40px;
+  color: #295939;
+  margin-bottom: 0px;
+  margin-top : 15px;
+  
+}
+
+h3{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 500 ;
+  margin: 10px auto 8px auto;
+  
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500 ;
+  margin: 8px auto 8px auto;
+}
+
+hr{
+  margin: none;
+  border-style: dotted none none;
+  
+  width: 7%;
+  color: #018749;
+  border-width: 12px;
+  margin: 25px auto 25px auto;
+
+}
+.name{
+  margin :0;
+  
+}
+.desc{
+  margin :0;
+  font-weight: 500;
+}
+
+
+
+.topcloud{
+    width : 200px;
+    height: 150px;
+    background-color: inherit;
+    position: relative;
+    right: 400px;    
+}
+.bottomcloud{
+    width : 200px;
+    height: 150px;
+    background-color: inherit;
+    position: relative;
+    left: 900px;  
+    bottom: 300px;
+}
+
+.mountain{
+    width : 70%;
+    height : 55%;
+    background-color: inherit;   
+    position: relative;
+    bottom : 0px;
+    right: 100px;
+
+    
+}
+
+.dev-pic{
+  width: 28%;
+  height: 25%;
+  background-color: inherit;
+  float: left;
+  margin-right: 30px;
+}
+.chess-pic{
+  width: 25%;
+  height: 25%;  
+  margin-left: 0px;
+  float :right;
+}
+
+.chess-text{
+  text-align: center;
+}
+.web-dev-text{
+  position: relative;
+  top: 30px;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 150px auto;  
+  line-height: 1.5;
+  text-align: center;
+  
+  
+}
+
+.bottom-container{
+  background-color: #00853E;
+  height: 150px;
+  margin-top: 70px;
+ 
+}
+.footer-link{
+
+ font-size: large;
+ font-weight: 400;
+ position : relative;
+ top: 50px;
+ margin: 0 30px 0;
+}
+.copyright{
+  position : relative;
+  top: 70px;
+ color: #EAF6F6;
+}
+
+.contact-me-text{
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto 60px auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
