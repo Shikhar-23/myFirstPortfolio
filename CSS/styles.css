@@ -1,7 +1,22 @@
-a{
+#lichess-id{
+  color:#026b00;
+  text-decoration: underline;
+}
+#lichess-id:hover{
+  color:black;
+  text-decoration: none;
+}
+
+
+.footer-link{
   color: white;
   text-decoration: none;
 }
+.footer-link:hover {
+  color: black;  
+  text-decoration: underline;
+}
+
 body{
   /*  background-color: #f9f7f7;*/    
     background-color: #cfdac8; 
@@ -169,9 +184,10 @@ hr{
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Georgia;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
