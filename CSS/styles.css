@@ -2,6 +2,31 @@ html{
   scroll-behavior:smooth;
 }
 
+.header{
+  background-color: #00853E;  
+  position:fixed;
+  width:100%;
+  opacity:0.1;  
+  z-index: 10;
+}
+.header:hover{
+  opacity:1;
+}
+.go-to{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;  
+  margin: 0;
+  height:max-content;
+  padding: 20px 50px;
+  font-size: 25px;
+  font-family: 'Montserrat', serif;
+  position:relative;
+  
+}
+.go-to:hover{
+  background-color:#124d1b
+}
 #lichess-id{
   color:#026b00;
   
@@ -76,24 +101,23 @@ p{
 
 hr{
   margin: none;
-  border-style: dotted none none;
-  
+  border-style: dotted none none;  
   width: 7%;
   color: #018749;
   border-width: 12px;
   margin: 25px auto 25px auto;
 
 }
+
 .name{
   margin :0;
   
 }
+
 .desc{
   margin :0;
   font-weight: 500;
 }
-
-
 
 .topcloud{
     width : 200px;
@@ -117,9 +141,7 @@ hr{
     background-color: inherit;   
     position: relative;
     bottom : 0px;
-    right: 100px;
-
-    
+    right: 100px;    
 }
 
 .dev-pic{
@@ -166,7 +188,7 @@ hr{
 
 .bottom-container{
   background-color: #00853E;
-  height: 150px;
+  height: 120px;
   margin-top: 70px;
  
 }
@@ -175,13 +197,14 @@ hr{
  font-size: 18px;
  font-weight: 500;
  position : relative;
- top: 45px;
+ top: 40px;
  margin: 0 30px 0;
+ font-family: 'ubuntu'; 
 }
 .copyright{
   position : relative;
   font-size: 12px;
-  top: 70px;
+  top: 60px;
  color: #EAF6F6;
 }
 
@@ -217,19 +240,7 @@ hr{
   text-decoration: none;
 }
 
-.go-to-top{
-  background: #0cad47;
-  color: whitesmoke;
-  position: fixed;
-  bottom: 0;
-  left: 90%;
-  border-style:solid;
-  text-decoration: none;
-}
 
-.go-to-top:hover{
-  background: #0cc964;
-}
 
 #topButton{
   text-decoration: none;
@@ -241,28 +252,3 @@ a{
   color:white;
 }
 
-.header{
-  background-color: #00853E;  
-  position:fixed;
-  width:100%;
-  opacity:0.1;  
-  z-index: 10;
-}
-.header:hover{
-  opacity:1;
-}
-.go-to{
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 500;  
-  margin: 0;
-  height:max-content;
-  padding: 20px 50px;
-  font-size: 25px;
-  font-family: 'Montserrat', serif;
-  position:relative;
-  
-}
-.go-to:hover{
-  background-color:#124d1b
-}
