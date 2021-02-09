@@ -1,6 +1,11 @@
+html{
+  scroll-behavior:smooth;
+}
+
+
 #lichess-id{
   color:#026b00;
-  text-decoration: underline;
+  
 }
 #lichess-id:hover{
   color:black;
@@ -22,16 +27,16 @@ body{
     background-color: #cfdac8; 
     text-align: center;
     margin: 0;
+    
     }
 
 
 
 .top{
   /*  background-color: #f9f7f7; */
-    
-    background-color: inherit;    
+    padding-top:35px;       
     position: relative;
-    left: 20px;
+    
     height : 40%;  
 }
 .introText{
@@ -148,7 +153,6 @@ hr{
   position: relative;
   top: 30px;
   left:15px;
-
 }
 
 
@@ -212,4 +216,54 @@ hr{
   background-image: -o-linear-gradient(top, #0cc964, #138728);
   background-image: linear-gradient(to bottom, #0cc964, #138728);
   text-decoration: none;
+}
+
+.go-to-top{
+  background: #0cad47;
+  color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  left: 90%;
+  border-style:solid;
+  text-decoration: none;
+}
+
+.go-to-top:hover{
+  background: #0cc964;
+}
+
+#topButton{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.header{
+  background-color: #00853E;  
+  position:fixed;
+  width:100%;
+  opacity:0.1;  
+  z-index: 10;
+}
+.header:hover{
+  opacity:1;
+}
+.go-to{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;  
+  margin: 0;
+  height:max-content;
+  padding: 20px 50px;
+  font-size: 25px;
+  font-family: 'Montserrat', serif;
+  position:relative;
+  
+}
+.go-to:hover{
+  background-color:#124d1b
 }

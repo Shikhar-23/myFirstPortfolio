@@ -15,13 +15,18 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">  
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-  <div class="introscreen">
-    <div class="top">
+  <div class = "header">
+    <a class = "go-to" href = "#introscreen">Introduction</a>
+    <a class = "go-to" href = "#profile">Profile</a>
+    <a class = "go-to" href = "#skills">Skills</a>
+    <a class = "go-to" href = "#contact-me">Contact Me</a>
+  </div>
+ 
+  
+    <div class="top" id = "introscreen">
       <img class="topcloud  " src="https://fiand1996.github.io/assets/img/ui/cloud.svg" alt="cloud-img">
       <div class="introText">
         <h1 class="name">I'm Shikhar</h1>
@@ -31,16 +36,16 @@
       <img class="mountain" src="images/coolmountain.png" alt="mountain-img">
     </div>
 
-  </div>
+  
   <hr>
-  <div class="middle-container">
-    <div class="profile">
+  <div class="middle-container">       
+    <div class="profile" id = "profile">
       <img src="images/shikhar.jpg" alt="my-picture">
       <h2>Hello.</h2>
       <p>My name is Shikhar Agrawal.<br> I like coding and playing sports. <br>I am a Fresher at Indian Institute of Technology, Roorkee</p>
     </div>
     <hr>
-    <div class="skills">
+    <div class="skills" id = "skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="dev-pic" src="images/development.png" alt="dev-related-pic">
@@ -63,13 +68,14 @@
           <h3>Amateur Chess Player</h3>
           <p class="skills-text">Have played in a few club tournaments.<br> I love to play the sicilian dragon
             and italian openings<br>
-            Ready for a match? Here is my <a id = "lichess-id" href="https://lichess.org/@/shikhar_23">lichess ID</a></p>
+            Ready for a match? Here is my <a id = "lichess-id" href="https://lichess.org/@/shikhar_23"><em>lichess ID</em></a></p>
         </div>
       </div>
 
     </div>
+    
     <hr>
-    <div class="contact-me">
+    <div class="contact-me" id = "contact-me">
       <div class = "contact-me-text">
       <h2>Get In Touch</h2>
       <h3>If you love to code or would like to play an exciting chess match.</h3>
@@ -79,7 +85,7 @@
     </div>
   </div>
 
-
+  
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/shikhar-agrawal-719a101bb/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/Shikhar24175084">Twitter</a>
@@ -87,7 +93,8 @@
     <a class="footer-link" href="https://www.instagram.com/shikhar._.agrawal">Instagram</a>
     <p class = "copyright">© 2021 Shikhar Agrawal.</p>
   </div>
-
+  
+  
 </body>
 
 </html>
