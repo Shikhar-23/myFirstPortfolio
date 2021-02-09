@@ -1,2 +1,3 @@
 # myFirstPortfolio
-learning CSS and HTML
+My portfolio:
+Made with HTML and vanilla CSS
